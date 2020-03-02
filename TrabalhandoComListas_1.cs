@@ -37,6 +37,24 @@ namespace TrabalhandoComListas
       Console.WriteLine($"I've added {names[2]} and {names[3]} to the list.");
 
       Console.WriteLine($"The list has {names.Count} people in it"); //Contabilida a quantidade de itens na lista.
-      
+      //----------------------------
+//Pesquisar itens pelo Index
+//----------------------------
+      var index = names.IndexOf("Edu");
+      if (index != -1){
+      Console.WriteLine($"The name {names[index]} is at index {index}");
+
+      var notFound = names.IndexOf("Not Found");
+      Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
+}
+
+//----------------------------
+//Classificar lista
+//----------------------------
+
+      names.Sort();
+      foreach (var name in names){
+      Console.WriteLine($"Hello {name.ToUpper()}!");
+    }
    }
 }
