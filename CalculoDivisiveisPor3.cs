@@ -2,7 +2,7 @@
 Project: Operadores
 Author: Francielly Lima
 Date: 02/03/2020
-Description: Classe que realiza a soma dos números de 1 a 20 que são dividíveis por 3.
+Description: Classe que realiza a soma dos números de 1 a 20 que são dividíveis por 3
 */
 
 using System;
